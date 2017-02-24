@@ -21,8 +21,7 @@ Bower install anagular-route
 #How to use angular.js, angular-route.min.js in Index.html
 <pre>
 
-<script src="bower_components/angular/angular.min.js" type="text/javascript"></script>"
-
-  <script src="bower_components/angular-route/angular-route.min.js"></script>
+&lt;script src="bower_components/angular/angular.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script  src="bower_components/angular-route/angular-route.min.js" &gt;&lt;/script&gt;
   
 </pre>
