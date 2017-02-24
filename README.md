@@ -4,15 +4,15 @@ Nodejs setup base seed project along with angular.How to install angular using b
 
 #How to Run
 
-1.Clone github repo ($git clone gitrepo)<br/>
+1.Clone github repo (<code> $ git clone gitrepo </code>)<br/>
 2.Open Terminal<br/>
-3.$ npm start<br/>
+3. <code>$ npm start</code><br/>
 
 #To Install BOWER
-Use Command npm install bower -g --save to install and save dependency in packagejson
+Use Command <code>npm install bower -g --save </code> to install and save dependency in packagejson
 
 #Install Express
-Use Command npm install express -g --save to install and save dependency in packagejson
+Use Command <code>npm install express -g --save to install </code> and save dependency in packagejson
 
 #How to Install Angular, Angular-Route using Bower
 Bower install angular<br/>
