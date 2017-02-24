@@ -1,0 +1,21 @@
+{
+  "name": "setup",
+  "description": "Nodejs Project setup using npm, Angular setup using bower to create setup project",
+  "main": "server.js",
+  "authors": [
+    "siddhu vydyabhushana"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.2",
+    "angular": "^1.6.2"
+  }
+}
