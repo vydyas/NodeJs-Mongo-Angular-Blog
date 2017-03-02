@@ -6,4 +6,4 @@ npm install
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FBRG48QzE_I" frameborder="0" allowfullscreen></iframe>
 
-[![Everything Is AWESOME](](https://www.youtube.com/embed/FBRG48QzE_I "NodeJs-Mongo-Angular-Blog")
+[![Everything Is AWESOME](https://i.ytimg.com/vi/FBRG48QzE_I/hqdefault.jpg)](https://www.youtube.com/embed/FBRG48QzE_I "NodeJs-Mongo-Angular-Blog")
