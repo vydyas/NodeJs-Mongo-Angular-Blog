@@ -4,3 +4,4 @@ How to create a blog application using Node JS, Mongo DB, Angular and Express fr
 # How to Install
 npm install
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FBRG48QzE_I" frameborder="0" allowfullscreen></iframe>
