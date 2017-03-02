@@ -1,0 +1,49 @@
+<article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h2>{{article[0].title}}</h2>
+                    <p>
+                        {{article[0].content}}
+                    </p>
+                   
+                </div>
+                
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <h2>Comments</h2>
+                    <div class="post-preview" ng-repeat="comment in comments[0]" style="background: #eee;">
+
+                        <b class="post-title">
+                            {{comment.name}}
+                        </b>
+                        <p class="post-subtitle">
+                            {{comment.comment}}
+                        </p>
+                    
+                    
+                     <hr>
+                </div>
+            
+                </div>
+               
+                </div>
+                
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+                    <div class="post-preview">
+                    <form>
+    <input type="text" placeholder="name" ng-model="sc.form.title"/><br/><br/>
+   
+      <textarea ng-model="sc.form.desc" placeholder="Comment"></textarea>
+
+    <br/><br/>
+
+    <button ng-click="sc.comment(sc.form)">Comment</button>
+</form>
+                     <hr>
+                </div>
+               
+                </div>
+            </div>
+        </div>
+    </article>

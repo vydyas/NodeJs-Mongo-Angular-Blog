@@ -1,0 +1,19 @@
+<div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            
+            <div class="post-preview" ng-repeat="article in articles">
+                <a href="" ng-click="deleteArticle(article._id)" style="float:right;color:red">X</a>
+               
+                        <h2 class="post-title">
+                            {{article.title}}
+                        </h2>
+                        <h3 class="post-subtitle">
+                            {{article.content}}
+                        </h3>
+                    
+                     <a href="" ng-click="editArticle(article._id)" style="float:right;color:green">Edit</a>
+                    
+                     <hr>
+                </div>
+            </div>
+        </div>

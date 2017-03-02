@@ -1,0 +1,17 @@
+<div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            
+            <div class="post-preview" ng-repeat="article in articles">
+                    <a href="#!/{{article._id}}/{{article.title_sub}}">
+                        <h2 class="post-title">
+                            {{article.title}}
+                        </h2>
+                        <h3 class="post-subtitle">
+                            {{article.content}}
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">{{article.articleby}}</a> on {{article.date | date:'MM/dd/yyyy'}}</p>
+                     <hr>
+                </div>
+            </div>
+        </div>
